@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+.header .logo {
+    cursor: pointer;
+}
+.header, .hero {
+    background-color: #00A1FC;
+}
+.footer {
+    background-color: #EEEEEE;
+}
+.text-lato {
+    font-family: 'Lato', sans-serif;
+
+}
+.awards img {
+    height: 139px;
+    width:139px
+}
+.awards .card-title {
+    font-size: 24px!important;;
+}
+.footer p, .awards p {
+    color: #4B5563;
+    font-size: 14px;
+}
+.footer p button {
+    border: none;
+}
+.text-lato-bold {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+.card.awards {
+    margin-bottom: -119px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.footer .col {
+    transition: .3s;
+    padding-top: 153px;
+}
+.footer .social-media-icons img {
+    cursor: pointer;
+    transition: .3s;
+}
+.footer .social-media-icons img:hover {
+    transition: .3s;
+    filter: invert(1);
+}
+.theme-btn {
+    background-color: #00A1FC;
+    border-radius: 8px!important;
+}
+.theme-btn:hover {
+    background-color: #1287c9;
+}
